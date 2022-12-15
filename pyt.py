@@ -13,5 +13,18 @@
 # print(lisst)
 # print(new_try)
 
-list = [1, 3, 4, 5, 6, 7, 8]
-print(list[:-1])
+# list = [1, 3, 4, 5, 6, 7, 8]
+# print(list[:-1])
+
+data = input()
+s = data.split(',') or data.split()
+# if s == False:
+#     print('Entre number with Space') 
+# else:
+#     A = [int(x) for x in s]
+# list(map(int, A))
+# A.reverse()
+# print(type(A))
+
+A = list(map(int, s))
+print(A)
